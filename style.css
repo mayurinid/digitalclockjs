@@ -1,0 +1,227 @@
+#container{
+    width: 98vw;
+    height: 100vh;
+    background-color: #3D087B;
+    position: relative;
+}
+.clock{
+    position: absolute;
+    top:10vh;
+    left:5vw;
+}
+#timecontainer{
+width:40vw; 
+height: 20vh;
+background-color: #FFFFFF;   
+border-radius: 15px;
+position: absolute;
+top:10vh;
+left:50%;
+display: flex;
+align-items: center;
+justify-content: center;
+z-index: 1;
+
+}
+.timecontainers{
+  width:30vw; 
+height: 20vh;
+box-shadow:5px 10p6x #9140B5;
+position: absolute;
+top:12vh;
+left:55%;
+background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 10px;
+opacity: 0.7
+}
+.imgh{
+    width:6vw;
+    height: 15vh;
+    
+    }
+#hours{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+   
+  position: absolute;
+  top: 5vh;
+  left: 24%;
+}
+#ho{
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+ 
+position: absolute;
+top: 9vh;
+left: 21%;
+}
+#minutes{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  position: absolute;
+  top: 5vh;
+  left: 40%;
+}
+#mi{
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+position: absolute;
+top: 9vh;
+left: 38%;
+}
+
+#seconds{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  position: absolute;
+  top: 5vh;
+  left: 57%;
+}
+#se{
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+position: absolute;
+top: 9vh;
+left: 56%; 
+}
+#session{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  position: absolute;
+  top: 8vh;
+  left: 70%;
+}
+#time{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  position: absolute;
+  top: 7vh;
+  left: 5%;
+}
+span{
+    font-size: 26px;
+    font-weight: bold; 
+    position: relative;
+    display: block;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-28) var(--unnamed-font-family-manrope);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-3d087b);
+text-align: left;
+font: normal normal normal 18px/28px Manrope;
+letter-spacing: 0px;
+color: #3D087B;
+opacity: 1;
+
+}
+#hr{
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+ 
+position: absolute;
+top: 9vh;
+left: 15%;
+}
+.fluxcontainer{
+  width: 40%;
+  height: 40%;
+  background-color: #3D087BDE;
+  position: absolute;
+  top:30%;
+  left:5vw;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+border: 1px solid var(--unnamed-color-ededed);
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #EDEDED;
+border-radius: 10px;
+opacity: 1;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+}
+.wakeup{
+  width: 40%;
+  height: 6%;
+  text-align: left;
+  font: 15px;
+padding-top: 12px;
+  color: white;
+  opacity: 1;
+  background-color: #9140B5;
+  border: 1px solid var(--unnamed-color-ededed);
+  border-radius: 10px;
+  position: absolute;
+  top:72%;
+  left:5vw;
+
+}
+.alarm{
+  width: 15%;
+  height: 5%;
+  color: white;
+  text-align: center;
+  position: absolute;
+  top:82%;
+  left:5vw;
+  padding-top: 10px;
+  background: transparent linear-gradient(113deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%) 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+}
+.wlbt{
+  width: 25%;
+  height: 15%;
+  position: absolute;
+  top:82%;
+  left:20vw;
+ 
+/* text-align: center; */
+font: normal normal bold 15px/25px Manrope;
+letter-spacing: 0px;
+color: #F25CFE;
+opacity: 1;
+background-color: #9140B5;
+border: 1px solid var(--unnamed-color-ededed);
+border-radius: 10px;
+}
+.breakfast{
+  width:40vw; 
+height: 8vh;
+padding-top: 35px;
+color: #8E53F0;
+background-color: #FFFFFF;   
+border-radius: 15px;
+position: absolute;
+top:35vh;
+left:50%;
+text-align: left;
+font-size: 30px;
+font-weight: bold;
+font-family:'Courier New', Courier, monospace;
+text-transform: uppercase;
+}
+.girlimg{
+ position: absolute;
+top:50vh;
+left:50%;
+}
+#settime{
+  
+  width:40%;
+  height: 8%;
+  position: absolute;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 14px/20px var(--unnamed-font-family-manrope);
+text-align: left;
+font: normal normal normal 14px/20px Manrope;
+letter-spacing: 0.25px;
+color: #3D087BDE;
+opacity: 1
+}
